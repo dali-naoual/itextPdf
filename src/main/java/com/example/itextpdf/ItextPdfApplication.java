@@ -15,11 +15,11 @@ public class ItextPdfApplication {
     public static void main(String[] args) {
         SpringApplication.run(ItextPdfApplication.class, args);
 
-        pdf pdf=new pdf();
+        pdf_5p pdf=new pdf_5p();
 
 
         try {
-            pdf.Report8D();
+            pdf.WHYANALYSE();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (MalformedURLException e) {
